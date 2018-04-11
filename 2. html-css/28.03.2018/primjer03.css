@@ -1,0 +1,13 @@
+div {
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+
+.divElement1 {
+    background-color: blue;
+}
+
+.divElement2 {
+    background-color: green;
+}
