@@ -1,0 +1,19 @@
+.divElement {
+    width: 400px;
+    height: 200px;
+    margin: auto;
+    color: blue;
+    background-color: red;
+}
+
+.divElement span {
+    background-color: white;
+}
+
+.spanElement {
+    background-color: yellow;
+}
+
+#spanId {
+    background-color: green;
+}
