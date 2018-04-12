@@ -1,0 +1,41 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#main {
+    width: 100%;
+    margin: 0px auto;
+    padding: 0px;
+    background-color: whitesmoke;
+}
+
+.divall {
+    height: 100px;
+    width: 100%;
+}
+
+.header {
+    position: absolute;
+    background-color: blue;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0px;
+    background-color: red;
+}
+
+.logo {
+    width: 100px;
+    height: 50px;
+    margin-left: 25px;
+    margin-top: 25px;
+    position: relative;
+    background-color: #cc33ff;
+    transition: width 2s;
+}
+
+.logo:hover {
+    width: 150px;
+}
