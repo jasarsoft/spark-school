@@ -1,0 +1,8 @@
+var broj = parseInt(prompt("Unesite dvocifren broj:"));
+
+if(broj >= 10 && broj < 100){
+	for(var i = 2; i < broj/2; i++)
+  	if(broj % i == 0)
+    	console.log(i);
+}else
+	console.log("Broj nije dvocifren!");
