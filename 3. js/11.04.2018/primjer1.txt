@@ -1,0 +1,6 @@
+var broj = 1;
+
+while(broj++ <= 20){
+	if(broj % 2 == 0)
+  	console.log(broj);
+}
