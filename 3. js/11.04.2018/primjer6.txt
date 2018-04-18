@@ -1,0 +1,11 @@
+var br1 = parseInt(prompt("Unesite broj 1: ")),
+		br2 = parseInt(prompt("Unesite broj 2: "));
+    
+var manji = br1 < br2 ? br1 : br2;
+var veci = br1 > br2 ? br2 : br2;
+
+for(var i = manji; i <= veci; i++){
+	if(i % 2 == 0 && i % 3 == 0)
+		console.log(i);
+}
+	
