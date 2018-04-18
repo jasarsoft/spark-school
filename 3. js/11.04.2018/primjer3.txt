@@ -1,0 +1,10 @@
+var suma = 0,
+		pokusaj = 1;
+    
+ do{
+ 	var broj = parseInt(prompt("Unesite broj:"));
+  if(broj > 99 && broj < 1000)
+  	suma += parseInt(broj/100);
+ }while(pokusaj++ < 3);
+ 
+ console.log("Suma je: " + suma);
