@@ -1,0 +1,16 @@
+var ukupno = 1, //ukupni umnozak
+		brojUnoseni = 0,	//broj uneseni pokusaja
+    brojPrimljni = 0; //broj primljeni brojeva
+
+while(brojPrimljeni < 5 && brojUneseni++ < 10){
+	var n = parseInt(prompt("Unesite paran broj: "));
+  if(n % 2 == 0 && n > 0){
+  	brojPrimljeni++;
+    ukupno *= n;
+  }
+}
+
+if(brojPrimljeni < 5 && brojUneseni == 10)
+	console.log("Pogrijesli ste 10 puta.");
+else
+	console.log(ukupno);
